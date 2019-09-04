@@ -1,6 +1,6 @@
 const $ = document.querySelector.bind(document)
 
-// seleciona os elementos -----------------------------------------------
+// Seleciona os elementos -----------------------------------------------
 var list = $('#app ul'),
     input = $('#app input'),
     button = $('#app #addTodo')
