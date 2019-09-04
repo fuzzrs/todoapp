@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo App</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="main.js"></script>
+    <style>
+        .mt-s {margin-top: 0.5rem}
+        .mt-m {margin-top: 1rem}
+        .mt-l {margin-top: 2rem}
+        .ml-m {margin-left: 1rem}
+    </style>
+</head>
+<body>
+    <div id="app" class="section">
+        <div class="container">
+            <div class="content is-clearfix">
+                <input class="input is-primary" type="text" placeholder="Adicione um novo afazer">
+                <a id="addTodo" class="button is-success is-pulled-right mt-s">Adicionar</a>
+                
+            </div>
+            
+            <hr>
+            
+            <div class="content">
+                <h1 class="title">Lista de Todo's</h1>
+                <ul></ul>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
