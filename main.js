@@ -40,10 +40,15 @@ renderTodos()
 function addTodo() {
     var todoText = input.value;
 
-    todos.push(todoText)
-    input.value = ''
-    renderTodos()
-    saveToStorage()
+    if(todoText) {
+        todos.push(todoText)
+        input.value = ''
+        renderTodos()
+        saveToStorage()
+    } else {
+        alert('you need to write something!')
+    }
+
 }
 
 button.addEventListener('click', addTodo)
